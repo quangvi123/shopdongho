@@ -322,10 +322,6 @@
     });
     leftSlider.addEventListener('click', () => {
         let listSlider = document.querySelectorAll('.img-slider');
-
-
         document.getElementById('slider-main').prepend(listSlider[listSlider.length - 1]);
-
     });
-    
 </script>
